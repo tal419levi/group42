@@ -4,17 +4,17 @@ color: white;
 text-align: center;
 padding: 20px;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-font-family: Arial, sans-serif;
 }
 
 header h1 {
 margin: 0;
 }
 body {
-    font-family: Bahnschrift, sans-serif ;
+    font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     text-align: center;
 }
+
 nav {
     background-color: darkseagreen;
     padding: 10px;
@@ -25,8 +25,6 @@ nav ul {
     margin: 0;
     padding: 0;
     text-align: center;
-     display: flex;
-    justify-content: center;
 }
 
 nav ul li {
@@ -49,50 +47,50 @@ nav ul li a:hover {
     background-color: #555;
 }
 
+
 .container {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 h2 {
-    color: cadetblue;
-    font-size: 36px;
+    color: #333;
+    font-size: 38px;
 }
 
-h3 {
-    color: green;
-    font-size: 36px;
-}
 
-/* Page1.css */
-.centered-image {
-    display: block;
-    margin: 20px auto; /* Center the image horizontally */
-    max-width: 40%; /* Ensure the image doesn't exceed its container */
-}
-.title-animation {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
+.qa {
+    margin-bottom: 20px;
+    background-color: #fff;
     border-radius: 10px;
-    animation: colorChange 4s infinite alternate;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: right;
+}
+.notAns{
+   margin-bottom: 20px;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: right;
+}
+.notAns h3{
+    color: #333333;
+}
+.notAns p{
+    color: #333333;
 }
 
-@keyframes colorChange {
-    0% {
-        background-color: #4CAF50;
-    }
-    50% {
-        background-color: #007bff;
-    }
-    100% {
-        background-color: darkseagreen;
-    }
+.qa h3 {
+    color: #007bff;
 }
 
+.qa p {
+    color: #333;
+    line-height: 1.6;
+}
 .site-footer {
     background-color: #45a049; /* צבע רקע */
     color: white; /* צבע טקסט */
@@ -100,8 +98,7 @@ h3 {
     padding: 0; /* ריווח בפנים */
     margin-top: 200px; /* ריווח מלמעלה */
     font-size: 14px; /* גודל טקסט */
-
-
+    width: 100%;
 }
 
 .site-footer .container {

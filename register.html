@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="register.css">
 </head>
 <body>
-    <h1>צור משתמש</h1>
+ <header>
+      <h1 dir="rtl"> Teach Me ההצלחה היא מסע ולא יעד</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="about.html">אודות</a></li>
+            <li><a href="information.html">תמיכה ומידע </a></li>
+            <li><a href="qa.html">שאלות ותשובות </a></li>
+            <li><a href="page1.html">דף הבית</a></li>
+        </ul>
+    </nav>
+    <h2>צור משתמש</h2>
     <form action="/create_user" method="post">
         <div class="form-group">
             <label for="id">תעודת זהות</label>
@@ -44,9 +55,21 @@
             <input type="password" id="password" name="password" required>
         </div>
 
-       <button type="button" onclick="history.back()">חזור</button>
+
 <button type="submit">צור משתמש</button>
 
     </form>
+
+ <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-item">כתובת משרדים: אוניברסיטת בן גוריון 1, באר שבע</div>
+            <div class="footer-item">שעות קבלה טלפונית: א'-ה' 08:00-16:00</div>
+            <div class="footer-item">טלפון: 03-1234567 | פקס: 03-7654321</div>
+            <div class="footer-item">
+                <a href="https://facebook.com" target="_blank">פייסבוק</a> |
+                <a href="https://instagram.com" target="_blank">אינסטגרם</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

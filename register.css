@@ -1,18 +1,61 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    flex-direction: column;
+header {
+background-color: #4CAF50;
+color: white;
+text-align: center;
+padding: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+font-family: Arial, sans-serif;
 }
 
-h1 {
+header h1 {
+margin: 0;
+}
+body {
+    font-family: Bahnschrift, sans-serif ;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+nav {
+    background-color: darkseagreen;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h2 {
     color: #333;
     margin-top: 10px;
     font-size: 35px;
+    font-family: Arial, sans-serif; /* גופן */
 }
 
 form {
@@ -32,6 +75,8 @@ form {
     justify-content: flex-end;
     align-items: center;
     margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+
 }
 
 .form-group label {
@@ -57,10 +102,32 @@ button {
     cursor: pointer;
     font-size: 16px;
     margin-top:20px;
+    font-family: Arial, sans-serif; /* גופן */
 }
 
 button:hover {
     background-color: #45a049;
 }
+
+.site-footer {
+    background-color: #45a049;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif; /* גופן */
+}
+
+.site-footer a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+
+
 
 

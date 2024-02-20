@@ -25,8 +25,6 @@ nav ul {
     margin: 0;
     padding: 0;
     text-align: center;
-     display: flex;
-    justify-content: center;
 }
 
 nav ul li {
@@ -48,50 +46,28 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
 }
-
 .container {
     margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex; /* הצגת האלמנטים ב־flex */
+    justify-content: center; /* הצבת הכותרת באמצע */
+    flex-direction: column; /* הצגת האלמנטים בקו אחד עמודה */
+    align-items: center; /* הצבת האלמנטים במרכז אופקי */
 }
 
-h2 {
-    color: cadetblue;
-    font-size: 36px;
+.container h2 {
+    color: blue; /* צבע כותרת */
+    font-size: 24px; /* גודל פונט כותרת */
+    margin-bottom: 10px; /* מרווח מתחת לכותרת */
 }
 
-h3 {
-    color: green;
-    font-size: 36px;
+.container p {
+    color: black; /* צבע טקסט של הפסקה */
+    font-size: 16px; /* גודל פונט הפסקה */
+    line-height: 1.6; /* מרווח בין שורות בפסקה */
 }
 
-/* Page1.css */
-.centered-image {
-    display: block;
-    margin: 20px auto; /* Center the image horizontally */
-    max-width: 40%; /* Ensure the image doesn't exceed its container */
-}
-.title-animation {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 10px;
-    animation: colorChange 4s infinite alternate;
-}
 
-@keyframes colorChange {
-    0% {
-        background-color: #4CAF50;
-    }
-    50% {
-        background-color: #007bff;
-    }
-    100% {
-        background-color: darkseagreen;
-    }
-}
+
 
 .site-footer {
     background-color: #45a049; /* צבע רקע */
@@ -100,8 +76,7 @@ h3 {
     padding: 0; /* ריווח בפנים */
     margin-top: 200px; /* ריווח מלמעלה */
     font-size: 14px; /* גודל טקסט */
-
-
+    width: 100%;
 }
 
 .site-footer .container {
@@ -117,4 +92,20 @@ h3 {
 
 .site-footer a:hover {
     text-decoration: underline; /* קו תחתון עבור הובר */
+}
+ .issue {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+ .issue h4 {
+    color: #007bff;
+}
+
+ .issue p {
+    color: #333;
+    line-height: 1.6;
 }
