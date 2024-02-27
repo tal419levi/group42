@@ -1,0 +1,122 @@
+header {
+background-color: #4CAF50;
+color: white;
+text-align: center;
+padding: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+font-family: Arial, sans-serif;
+}
+
+header h1 {
+margin: 0;
+}
+body {
+    font-family: Bahnschrift, sans-serif ;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+nav {
+    background-color: darkseagreen;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+     display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+.contact-us-container{
+    display: flex;
+}
+.contact-us-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* מיישר את התיבה לצד שמאל */
+    max-width: 400px; /* רוחב מרבי לתיבה */
+    margin: auto; /* מרכז את התיבה באופן אוטומטי */
+}
+
+/* עיצוב התוויות */
+.contact-us-box label {
+    margin-bottom: 5px; /* מרווח בין תווית לתווית */
+    text-align: right; /* מיישר את הטקסט לימין */
+}
+
+/* עיצוב התיבות */
+.contact-us-box input[type="text"],
+.contact-us-box textarea {
+    width: 100%; /* רוחב מלא */
+    padding: 8px; /* ריווח פנימי */
+    margin-bottom: 10px; /* מרווח בין תיבה לתיבה */
+    direction: rtl; /* כיוון טקסט מימין לשמאל */
+}
+
+/* עיצוב כפתור השליחה */
+.contact-us-box .submit-button {
+    text-align: center; /* מיישר את הכפתור למרכז */
+}
+
+/* עיצוב הכפתור עצמו */
+.contact-us-box input[type="submit"] {
+    background-color: #4CAF50; /* צבע רקע */
+    color: white; /* צבע טקסט */
+    padding: 10px 20px; /* ריווח פנימי */
+    border: none; /* ללא גבול */
+    border-radius: 5px; /* חיפוש עגול */
+    cursor: pointer; /* משנה את סמן העכבר לסמן יד */
+}
+
+/* עיצוב הפוטר */
+.site-footer {
+    background-color: #f2f2f2; /* צבע רקע */
+    padding: 20px; /* ריווח פנימי */
+    text-align: center; /* מיישר את הטקסט למרכז */
+}
+
+
+.site-footer {
+    background-color: #45a049; /* צבע רקע */
+    color: white; /* צבע טקסט */
+    text-align: center; /* יישור טקסט */
+    padding: 0; /* ריווח בפנים */
+    margin-top: 200px; /* ריווח מלמעלה */
+    font-size: 14px; /* גודל טקסט */
+}
+
+.site-footer .container {
+    width: 100%;
+    max-width: 2500px; /* מקסימום רוחב של הכול */
+    margin: 0 auto; /* מירכוז הכול */
+}
+
+.site-footer a {
+    color: cornflowerblue; /* צבע לקישורים */
+    text-decoration: none; /* הסרת קו תחתון */
+}
+
+.site-footer a:hover {
+    text-decoration: underline; /* קו תחתון עבור הובר */
+}

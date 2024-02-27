@@ -1,0 +1,130 @@
+header {
+background-color: #4CAF50;
+color: white;
+text-align: center;
+padding: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+font-family: Arial, sans-serif;
+}
+
+header h1 {
+margin: 0;
+}
+body {
+    font-family: Bahnschrift, sans-serif ;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+nav {
+    background-color: darkseagreen;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+     display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.page-content{
+    display: flex;
+}
+.form-date {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* הוספת יישור למרכז */
+}
+
+
+.input-block {
+    margin-bottom: 16px;
+
+}
+
+.input-block label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: right; /* הוספת יישור לימין */
+}
+
+.input-block select,
+.input-block input[type="date"],
+.input-block input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: right; /* הוספת יישור לימין */
+}
+
+.submit-button {
+    text-align: center; /* למרכז את הכפתור במרכז האבא */
+    margin-top: 20px; /* מרווח מעלה */
+}
+
+.submit-button input[type="submit"] {
+    background-color: #4CAF50; /* צבע רקע */
+    color: white; /* צבע טקסט */
+    padding: 10px 20px; /* מרווח בתוך הכפתור */
+    border: none; /* להסיר את המסגרת */
+    border-radius: 5px; /* לעגל את הפינות */
+    cursor: pointer; /* להציג את הסמן בצורת יד */
+    font-size: 16px; /* גודל הטקסט */
+    transition: background-color 0.3s ease; /* העברה חלקה בצבע רקע */
+}
+
+.submit-button input[type="submit"]:hover {
+    background-color: #45a049; /* צבע רקע בהעברת העכבר */
+}
+
+.site-footer {
+    background-color: #45a049; /* צבע רקע */
+    color: white; /* צבע טקסט */
+    text-align: center; /* יישור טקסט */
+    padding: 0; /* ריווח בפנים */
+    margin-top: 200px; /* ריווח מלמעלה */
+    font-size: 14px; /* גודל טקסט */
+}
+
+.site-footer .container {
+    width: 100%;
+    max-width: 2500px; /* מקסימום רוחב של הכול */
+    margin: 0 auto; /* מירכוז הכול */
+}
+
+.site-footer a {
+    color: cornflowerblue; /* צבע לקישורים */
+    text-decoration: none; /* הסרת קו תחתון */
+}
+
+.site-footer a:hover {
+    text-decoration: underline; /* קו תחתון עבור הובר */
+}

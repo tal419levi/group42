@@ -1,16 +1,18 @@
 header {
-background-color: #4CAF50;
-color: white;
-text-align: center;
-padding: 20px;
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
 }
 
 header h1 {
-margin: 0;
+    margin: 0;
 }
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: Bahnschrift, sans-serif;
     background-color: #f0f0f0;
     text-align: center;
 }
@@ -25,6 +27,8 @@ nav ul {
     margin: 0;
     padding: 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
@@ -46,51 +50,69 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
 }
-
-
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2 {
     color: #333;
-    font-size: 38px;
+    margin-top: 10px;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
 }
 
-
-.qa {
-    margin-bottom: 20px;
+form {
     background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    text-align: right;
-}
-.notAns{
-   margin-bottom: 20px;
-    background-color: darkseagreen;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     text-align: right;
-}
-.notAns h3{
-    color: #333333;
-}
-.notAns p{
-    color: #333333;
+    width: 80%;
+    max-width: 400px;
+    margin-top: 20px;
+    direction: rtl;
 }
 
-.qa h3 {
-    color: #007bff;
+.form-group {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
 }
 
-.qa p {
-    color: #333;
-    line-height: 1.6;
+.form-group label {
+    width: 30%;
+    font-size: 14px;
+    margin-right: 5%;
 }
+
+.form-group input {
+    width: 65%;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
 .site-footer {
     background-color: #45a049; /* צבע רקע */
     color: white; /* צבע טקסט */
@@ -98,7 +120,8 @@ h2 {
     padding: 0; /* ריווח בפנים */
     margin-top: 200px; /* ריווח מלמעלה */
     font-size: 14px; /* גודל טקסט */
-    width: 100%;
+
+
 }
 
 .site-footer .container {
@@ -115,3 +138,4 @@ h2 {
 .site-footer a:hover {
     text-decoration: underline; /* קו תחתון עבור הובר */
 }
+

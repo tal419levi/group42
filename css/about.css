@@ -25,6 +25,8 @@ nav ul {
     margin: 0;
     padding: 0;
     text-align: center;
+     display: flex;
+    justify-content: center;
 }
 
 nav ul li {
@@ -46,6 +48,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
 }
+
 .container {
     margin-top: 50px;
     display: flex; /* הצגת האלמנטים ב־flex */
@@ -65,9 +68,6 @@ nav ul li a:hover {
     font-size: 16px; /* גודל פונט הפסקה */
     line-height: 1.6; /* מרווח בין שורות בפסקה */
 }
-
-
-
 
 .site-footer {
     background-color: #45a049; /* צבע רקע */
@@ -92,20 +92,4 @@ nav ul li a:hover {
 
 .site-footer a:hover {
     text-decoration: underline; /* קו תחתון עבור הובר */
-}
- .issue {
-    margin-bottom: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-}
-
- .issue h4 {
-    color: #007bff;
-}
-
- .issue p {
-    color: #333;
-    line-height: 1.6;
 }

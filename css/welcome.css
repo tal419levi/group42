@@ -49,6 +49,49 @@ nav ul li a:hover {
     background-color: #555;
 }
 
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: cadetblue;
+    font-size: 36px;
+}
+
+h3 {
+    color: green;
+    font-size: 36px;
+}
+
+/* welcome.css */
+.centered-image {
+    display: block;
+    margin: 20px auto; /* Center the image horizontally */
+    max-width: 40%; /* Ensure the image doesn't exceed its container */
+}
+.title-animation {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    animation: colorChange 4s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: #4CAF50;
+    }
+    50% {
+        background-color: #007bff;
+    }
+    100% {
+        background-color: darkseagreen;
+    }
+}
 
 .site-footer {
     background-color: #45a049; /* צבע רקע */
@@ -74,17 +117,4 @@ nav ul li a:hover {
 
 .site-footer a:hover {
     text-decoration: underline; /* קו תחתון עבור הובר */
-}
-.link-button {
-    background-color: #4CAF50; /* צבע רקע ירוק */
-    color: white; /* צבע טקסט לבן */
-    padding: 10px 20px; /* ריווח פנימי בכפתור */
-    text-decoration: none; /* הסרת קו תחתון */
-    border-radius: 5px; /* עיגול קצוות */
-    display: block;
-    margin: 10px; /* מרווח בין הכפתורים מסביב */
-}
-
-.link-button:hover {
-    background-color: #45a049; /* צבע רקע ירוק כהה בעזרת hover */
 }

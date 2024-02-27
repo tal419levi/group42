@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>צור משתמש</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <header>
+        <h1 dir="rtl"> Teach Me ההצלחה היא מסע ולא יעד</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="information.html">תמיכה ומידע</a></li>
+            <li><a href="about.html">אודות</a></li>
+            <li><a href="login.html">כניסה למערכת</a></li>
+            <li><a href="register.html">הרשמה</a></li>
+            <li><a href="welcome.html">דף הבית</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>כניסה למערכת</h2>
+        <form action="/login" method="post">
+            <div class="form-group">
+                <label for="email">כתובת מייל</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">סיסמא</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="button" onclick="history.back()">חזור</button>
+            <button type="submit">הכנס</button>
+        </form>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-item">כתובת משרדים: אוניברסיטת בן גוריון 1, באר שבע</div>
+            <div class="footer-item">שעות קבלה טלפונית: א'-ה' 08:00-16:00</div>
+            <div class="footer-item">טלפון: 03-1234567 | פקס: 03-7654321</div>
+            <div class="footer-item">
+                <a href="https://facebook.com" target="_blank">פייסבוק</a> |
+                <a href="https://instagram.com" target="_blank">אינסטגרם</a>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/login.js"></script>
+</body>
+</html>

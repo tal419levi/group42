@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="../css/Feedback.css"> <!-- Link to welcome.css -->
+</head>
+<body>
+    <header>
+        <h1 dir="rtl">Teach Me ההצלחה היא מסע ולא יעד</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="qa.html">שאלות ותשובות</a></li>
+            <li><a href="MainPage.html">דף הבית</a></li>
+            <li><a href="welcome.html">התנתק</a> </li>
+        </ul>
+    </nav>
+    <h2> הבע הערכה לשיעור בעזרת המדדים הבאים</h2>
+  <div class="container">
+        <div>
+            <h3> הבע הערכה במילים</h3>
+            <textarea id="feedback" rows="4" cols="50" placeholder="הוסף הערכה כאן..."></textarea>
+        </div>
+        <div>
+            <h4> בחר דירוג מ1 עד 10 (1-ציון נמוך, 10 - ציון גבוה)</h4>
+            <select id="rating">
+                <option value="בחר">בחר</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+<button class="button submit-feedback-btn" id="submit_feedback">שלח הערכה</button>
+<button class="button submit-feedback-btn" id = "back">חזור להיסטוריית שיעורים</button>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-item">כתובת משרדים: אוניברסיטת בן גוריון 1, באר שבע</div>
+            <div class="footer-item">שעות קבלה טלפונית: א'-ה' 08:00-16:00</div>
+            <div class="footer-item">טלפון: 03-1234567 | פקס: 03-7654321</div>
+            <div class="footer-item">
+                <a href="https://facebook.com" target="_blank">פייסבוק</a> |
+                <a href="https://instagram.com" target="_blank">אינסטגרם</a>
+            </div>
+        </div>
+    </footer>
+<script src="../js/Feedback.js"></script>
+</body>
+</html>

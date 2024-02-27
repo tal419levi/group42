@@ -1,20 +1,22 @@
 header {
-background-color: #4CAF50;
-color: white;
-text-align: center;
-padding: 20px;
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-font-family: Arial, sans-serif;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
 }
 
 header h1 {
-margin: 0;
+    margin: 0;
 }
+
 body {
-    font-family: Bahnschrift, sans-serif ;
+    font-family: Bahnschrift, sans-serif;
     background-color: #f0f0f0;
     text-align: center;
 }
+
 nav {
     background-color: darkseagreen;
     padding: 10px;
@@ -25,6 +27,8 @@ nav ul {
     margin: 0;
     padding: 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
@@ -48,6 +52,9 @@ nav ul li a:hover {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 50px;
 }
 
@@ -55,7 +62,7 @@ h2 {
     color: #333;
     margin-top: 10px;
     font-size: 35px;
-    font-family: Arial, sans-serif; /* גופן */
+    font-family: Arial, sans-serif;
 }
 
 form {
@@ -72,11 +79,10 @@ form {
 
 .form-group {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
     font-family: Arial, sans-serif;
-
 }
 
 .form-group label {
@@ -90,7 +96,6 @@ form {
     padding: 7px;
     box-sizing: border-box;
     font-size: 14px;
-    margin-left: 2px;
 }
 
 button {
@@ -101,8 +106,8 @@ button {
     padding: 8px 16px;
     cursor: pointer;
     font-size: 16px;
-    margin-top:20px;
-    font-family: Arial, sans-serif; /* גופן */
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
 }
 
 button:hover {
@@ -110,24 +115,28 @@ button:hover {
 }
 
 .site-footer {
-    background-color: #45a049;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
-    font-family: Arial, sans-serif; /* גופן */
+    background-color: #45a049; /* צבע רקע */
+    color: white; /* צבע טקסט */
+    text-align: center; /* יישור טקסט */
+    padding: 0; /* ריווח בפנים */
+    margin-top: 200px; /* ריווח מלמעלה */
+    font-size: 14px; /* גודל טקסט */
+
+
+}
+
+.site-footer .container {
+    width: 100%;
+    max-width: 2500px; /* מקסימום רוחב של הכול */
+    margin: 0 auto; /* מירכוז הכול */
 }
 
 .site-footer a {
-    color: cornflowerblue;
-    text-decoration: none;
+    color: cornflowerblue; /* צבע לקישורים */
+    text-decoration: none; /* הסרת קו תחתון */
 }
 
 .site-footer a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* קו תחתון עבור הובר */
 }
-
-
-
-
 

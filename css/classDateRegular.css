@@ -7,7 +7,6 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 font-family: Arial, sans-serif;
 }
 
-
 header h1 {
 margin: 0;
 }
@@ -49,47 +48,60 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
 }
-h2 {
-    font-family: Arial, sans-serif; /* בחירת גופן טקסט */
-    color: #333333; /* צבע טקסט */
-    font-size: 32px; /* גודל הפונט */
-    margin: 0; /* איפוס המרווחים */
-    padding: 10px; /* עיצוב פנימי */
+.page-content{
+    display: flex;
 }
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-.lesson {
+/* Style for form-date section */
+.form-date {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
     border: 1px solid #ccc;
-    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* הוספת יישור למרכז */
+}
+
+.input-block {
+    margin-bottom: 16px;
+}
+
+.input-block label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: right; /* הוספת יישור לימין */
+}
+
+.input-block select,
+.input-block input[type="date"],
+.input-block input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-}
-.lesson:hover {
-    background-color: #f0f0f0; /* צבע רקע כאשר עוברים עם העכבר */
-    box-shadow: 0 0 10px rgba(0,0,0,0.2); /* הסמן שמשתנה כאשר עוברים עם העכבר */
+    text-align: right; /* הוספת יישור לימין */
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    background-color: darkseagreen; /* צבע רקע רגיל */
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
+.submit-button {
+    text-align: center; /* למרכז את הכפתור במרכז האבא */
+    margin-top: 20px; /* מרווח מעלה */
 }
 
-.button:hover {
-    background-color: #45a049; /* צבע רקע כאשר עוברים עם העכבר */
+.submit-button input[type="submit"] {
+    background-color: #4CAF50; /* צבע רקע */
+    color: white; /* צבע טקסט */
+    padding: 10px 20px; /* מרווח בתוך הכפתור */
+    border: none; /* להסיר את המסגרת */
+    border-radius: 5px; /* לעגל את הפינות */
+    cursor: pointer; /* להציג את הסמן בצורת יד */
+    font-size: 16px; /* גודל הטקסט */
+    transition: background-color 0.3s ease; /* העברה חלקה בצבע רקע */
 }
 
-
+.submit-button input[type="submit"]:hover {
+    background-color: #45a049; /* צבע רקע בהעברת העכבר */
+}
 
 .site-footer {
     background-color: #45a049; /* צבע רקע */
@@ -98,8 +110,6 @@ h2 {
     padding: 0; /* ריווח בפנים */
     margin-top: 200px; /* ריווח מלמעלה */
     font-size: 14px; /* גודל טקסט */
-
-
 }
 
 .site-footer .container {

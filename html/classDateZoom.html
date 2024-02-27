@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>classes Zoom</title>
+    <link rel="stylesheet" href="../css/classDateZoom.css"> <!-- Link classDate.css to welcome.css -->
+</head>
+<body>
+    <header>
+        <h1 dir="rtl">Teach Me ההצלחה היא מסע ולא יעד</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="qa.html">שאלות ותשובות</a></li>
+            <li><a href="MainPage.html">דף הבית</a></li>
+            <li><a href="welcome.html">התנתק</a> </li>
+        </ul>
+    </nav>
+    <div class="page-content">
+        <div class="form-date">
+            <form id="classD">
+                <h2>תאם שיעור פרטי בזום</h2>
+                <div class="search-form">
+                    <div class="input-block">
+                        <label for="subject">בחר מקצוע</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">בחר</option>
+                            <option value="מתמטיקה">מתמטיקה 5 יחידות</option>
+                            <option value="מתמטיקה">מתמטיקה 4 יחידות</option>
+                            <option value="מתמטיקה">מתמטיקה 3 יחידות</option>
+                            <option value="מתמטיקה">מתמטיקה לחטיבה</option>
+                            <option value="פיזיקה">פיזיקה לתיכון</option>
+                            <option value="פיזיקה">פיזיקה לחטיבה</option>
+                            <option value="אנגלית">אנגלית 5 יחידות</option>
+                            <option value="אנגלית">אנגלית 4 יחידות</option>
+                            <option value="אנגלית"> אנגלית 3 יחידות </option>
+                            <option value="אנגלית">אנגלית לחטיבה</option>
+                            <option value="מדעים"> מדעים לתיכון</option>
+                            <option value="מדעים">מדעים לחטיבה</option>
+                            <option value="לשון">לשון לתיכון</option>
+                            <option value="לשון">לשון לחטיבה</option>
+                        </select>
+                    </div>
+                    <div class="input-block">
+                        <label for="classDate">בחר תאריך</label>
+                        <input type="date" id="classDate" name="classDate" required>
+                    </div>
+                    <div class="input-block">
+                        <label for="classTime">בחר שעה</label>
+                        <input type="time" id="classTime" name="classTime" required>
+                    </div>
+
+                    <div class="input-block">
+                        <label for="teachersList">בחר מורה</label>
+                        <select id="teachersList" required>
+                            <option value="">בחר</option>
+                            <option value="teacher1">יוחאי אורן דירוג 9.2</option>
+                            <option value="teacher2">אמיר כומני דירוג 8.8</option>
+                            <option value="teacher3">רננה כהן דירוג 8.2</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="submit-button">
+                    <input type="submit" value = "תיאום שיעור" onclick="submitForm()">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-item">כתובת משרדים: אוניברסיטת בן גוריון 1, באר שבע</div>
+            <div class="footer-item">שעות קבלה טלפונית: א'-ה' 08:00-16:00</div>
+            <div class="footer-item">טלפון: 03-1234567 | פקס: 03-7654321</div>
+            <div class="footer-item">
+                <a href="https://facebook.com" target="_blank">פייסבוק</a> |
+                <a href="https://instagram.com" target="_blank">אינסטגרם</a>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/classDateZoom.js"></script>
+</body>
+</html>
