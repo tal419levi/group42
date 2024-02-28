@@ -58,7 +58,6 @@ h2 {
     margin: 0; /* איפוס המרווחים */
     padding: 10px; /* עיצוב פנימי */
 }
-
 .container {
     display: grid;
     grid-template-columns: 1fr; /* עמודה אחת */

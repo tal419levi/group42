@@ -74,7 +74,6 @@ h2 {
     cursor: pointer; /* סמן עכבר */
     border-radius: 5px; /* רינוע פינות מעגלי */
 }
-
 .buttonCancel {
     background-color: darkseagreen;
     color: white; /* צבע טקסט לבן */

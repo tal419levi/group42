@@ -104,7 +104,6 @@ nav ul li a:hover {
 .submit-button input[type="submit"]:hover {
     background-color: #45a049; /* צבע רקע בהעברת העכבר */
 }
-
 .site-footer {
     background-color: #45a049; /* צבע רקע */
     color: white; /* צבע טקסט */

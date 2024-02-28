@@ -135,7 +135,6 @@ button:hover {
     color: cornflowerblue; /* צבע לקישורים */
     text-decoration: none; /* הסרת קו תחתון */
 }
-
 .site-footer a:hover {
     text-decoration: underline; /* קו תחתון עבור הובר */
 }
